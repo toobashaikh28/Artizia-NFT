@@ -1,86 +1,85 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 
-.card{
-    width: 290px;
-    height: 329px;
-    margin: 50px auto;
-    cursor: pointer;
-    border-radius: 10px;
-    font-family: jost;
-    
+.card {
+  width: 290px;
+  height: 329px;
+  margin: 50px auto;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: jost;
 }
 
 .card:hover {
   box-shadow: 7px 10px 21px rgba(0, 0, 0, 0.403);
 }
 
-.top{
-    position: relative;
+.top {
+  position: relative;
 }
 
-.timer{
-    background-color: #2636D9;
-    color: aliceblue;
-    width:205px;
-    height: 43px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    border-radius: 25px;
-    position: absolute;
-    top: -28px;
-    left: 86px;
+.timer {
+  background-color: #2636d9;
+  color: aliceblue;
+  width: 205px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 25px;
+  position: absolute;
+  top: -28px;
+  left: 86px;
 }
 
-.logo{
-    position: absolute;
-    top: 160px;
-    left: 103px;
+.logo {
+  position: absolute;
+  top: 160px;
+  left: 103px;
 }
 
-.logo-img{
-    border: solid white 8px;
-    border-radius: 50%;
+.logo-img {
+  border: solid white 8px;
+  border-radius: 50%;
 }
 
-.border{
-    position: relative;
+.border {
+  position: relative;
 }
 
-.tick{
-    position: absolute;
-    top: 0px;
-    right: 0px;
+.tick {
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
-.row{
-    position: relative;
-    left: 18px;
-    top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 30px;
+.row {
+  position: relative;
+  left: 18px;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30px;
 }
 
-.text{
-    font-weight: 600;
-    font-size: 20px;
+.text {
+  font-weight: 600;
+  font-size: 20px;
 }
 
-.likes{
-    display: flex;
-    gap: 10px;
-    color:#AAAAAA;
+.likes {
+  display: flex;
+  gap: 10px;
+  color: #aaaaaa;
 }
 
-.last{
-    color: #AAAAAA;
+.last {
+  color: #aaaaaa;
 }
 
-.but{
-    color: #B600D1;
+.but {
+  color: #b600d1;
 }
-.but:hover{
-    cursor: pointer;
+.but:hover {
+  cursor: pointer;
 }
