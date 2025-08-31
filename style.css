@@ -1,109 +1,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 
-.main {
-  width: 290px;
-  margin: 30px auto;
-  font-family: "Jost", sans-serif;
-  position: relative;
-  cursor: pointer;
-  border-radius: 10px;
+.card{
+    width: 290px;
+    height: 329px;
+    margin: 50px auto;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
-.main:hover {
+.card:hover {
   box-shadow: 7px 10px 21px rgba(0, 0, 0, 0.403);
 }
 
-.nft-image {
-  border-radius: 10px;
+.top{
+    position: relative;
 }
 
-.nft-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.timer{
+    background-color: #2636D9;
+    color: aliceblue;
+    width:205px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 25px;
+    position: absolute;
+    top: -28px;
+    left: 86px;
 }
 
-.bottom {
-  padding: 50px 10px 10px 10px;
-  font-weight: 500;
-  font-size: 16px;
+.logo{
+    position: absolute;
+    top: 160px;
+    left: 103px;
 }
 
-.likes {
-  display: flex;
-  align-items: center;
-  gap: 5px;
+.logo-img{
+    border: solid white 8px;
+    border-radius: 50%;
 }
 
-.title {
-  font-weight: 600;
-  font-size: 20px;
-  color: #121212;
+.border{
+    position: relative;
 }
 
-.nft-like-count {
-  font-size: 14px;
-  color: #8e8e8e;
+.tick{
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
-.nft-price {
-  color: #4a4949;
+.row{
+    position: relative;
+    left: 18px;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
 }
 
-.nft-last-sale {
-  color: #aaaaaa;
+.text{
+    font-weight: 600;
+    font-size: 20px;
 }
 
-.nft-bid-btn {
-  color: #b600d1;
-  cursor: pointer;
-  margin-top: 10px;
-  font-weight: 600;
-  font-size: 16px;
+.likes{
+    display: flex;
+    gap: 10px;
+    color:#AAAAAA;
 }
 
-.nft-timer {
-  z-index: 1;
-  position: absolute;
-  right: 0;
-  top: -15px;
-  height: 40px;
-  background-color: #2636d9;
-  border-radius: 25px;
-  font-weight: 500;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: #ffffff;
-  width: max-content;
-  padding-inline: 15px;
+.last{
+    color: #AAAAAA;
 }
 
-.top {
-  position: relative;
+.but{
+    color: #B600D1;
 }
-
-.logo {
-  position: absolute;
-  bottom: -40px;
-  width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.duck {
-  border: 8px solid white;
-  border-radius: 50px;
-}
-
-.center {
-  position: relative;
-}
-
-.tick {
-  position: absolute;
-  top: 3px;
-  right: 3px;
+.but:hover{
+    cursor: pointer;
 }
